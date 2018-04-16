@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Teléfono"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Teléfono"/>
+        <item
+            android:id="@+id/Mapa"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Mapa"/>
+        <item
+            android:id="@+id/geo"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Geolocalización"/>
+        <item
+            android:id="@+id/direcciones"
+            android:icon="@drawable/waze"
+            android:title="direcciones"/>
+
+    </group>
+
+    <item android:title="Redes Sociales">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Acerca"/>
+        </menu>
+    </item>
+
+</menu>

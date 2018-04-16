@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="@drawable/mapa2"
+    tools:showIn="@layout/app_bar_main">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/tax1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="100sp"
+        android:src="@drawable/taxi_icon_marker1"/>
+
+    <ImageView
+        android:id="@+id/tax2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tax3"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:src="@drawable/taxi_icon_marker2"/>
+
+    <ImageView
+        android:id="@+id/tax3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14sp"
+        android:layout_marginEnd="13sp"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:src="@drawable/taxi_icon_marker3"/>
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
